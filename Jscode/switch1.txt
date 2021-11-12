@@ -1,0 +1,28 @@
+<html>
+<body>
+<script>
+var day = 101;
+var dayname;
+switch(day)
+{
+case 1:
+      dayname = 'sunday';
+case 2:
+      dayname = 'monday';
+case 3:
+      dayname = 'tuesday';
+case 4:
+      dayname = 'wednesday';
+case 5:
+      dayname = 'thursday';
+case 6:
+      dayname = 'friday';
+case 7:
+      dayname = 'saturday';
+default:
+       dayname ='Invalid input';
+}
+document.write(dayname)
+</script>
+</body>
+</html>
